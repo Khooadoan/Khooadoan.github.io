@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    top: 0px;
+    background: white;
+    z-index: 3;
+}
+
+.logo {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.logo span {
+    color: #f8b200;
+    margin: 0 6px;
+}
+
+nav ul {
+    margin-left: auto;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: 700;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
+nav ul li:hover a .bracelets{
+    visibility: visible;
+}
+
+main {
+    margin-top: 150px;
+}
+
+.hero {
+    float: left;
+    margin: 0 70px;
+}
+
+.big {
+    font-size: 50px;
+}
+
+.description {
+    font-size: 24px;
+}
+
+#header {
+    height: auto;
+}
+
+#aboutme {
+    height: auto;
+    margin: 0 200px;
+}
+
+.paragraph {
+    width: 50%;
+    min-width: 300px;
+    font-size: 24px;
+}
+
+.avatar {
+    float: right;
+    margin: 0 100px 50px;
+}
+
+.avatar img {
+    border-radius: 16px;
+}
+
+.navsection {
+    position: relative;
+    bottom: 100px;
+}
+
+.underline {
+    border-bottom: 5px solid #f8cf00;
+    border-radius: 4px;
+}
+
+.banner img {
+   margin-top: 100px;
+   width: 100%;
+   height: 300px; 
+   padding-bottom: 50px;
+   object-fit: cover;
+}
+
+.right {
+    text-align: right;
+}
+
+#works {
+    margin: 0 200px;
+    height: auto;
+}
+
+.light {
+    font-weight: 200 !important;
+}
+
+#aboutme ul {
+    list-style: none;
+    padding: 0;
+}
+
+#aboutme ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gray {
+    color: #acacac !important;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.black {
+    color: black;
+}
+
+.work-container {
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-item img {
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    object-fit: cover;
+}
+
+.work-item {
+    margin: 10px;
+}
+
+.work-item p{
+    text-align: center;
+    width: 200px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.bracelets {
+    visibility: hidden;
+    font-weight: 700;
+    color: #f8b200
+}
+
+.work-item:hover .bracelets {
+    visibility: visible;
+}
+
+#contactmecontainer {
+    margin: 0 200px;
+    color: white;
+}
+
+#contactme {
+    width: 100%;
+    height: 800px;
+    background: url("code.jpg");
+    background: url(code.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.white {
+    color: white !important;
+}
+
+form label {
+    font-size: 20px;
+    display: block;
+    margin: 30px 0;
+}
+
+form input {
+    border: none;
+    font-family: "Mulish", sans-serif;
+    display: block;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+form textarea {
+    border: none;
+    font-family: "Mulish", sans-serif;
+    display: block;
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+form button {
+    width: 300px;
+    border: none;
+    background: white;
+    height: 30px;
+    border-radius: 8px;
+    font-family: "Mulish", sans-serif;
+}
+
+form button:hover {
+    cursor: pointer;
+    background: #0033ff;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+
+     .avatar {
+       float: none;
+     }
+  }
+
+@media only screen and (max-width: 800px) {
+    .hero {
+        display: none;
+    }
+
+    #header p {
+        margin-left: 100px;
+    }
+
+     .avatar {
+       float: none;
+     }
+  }
+
+@media only screen and (max-width: 650px) {
+    nav .logo {
+        display: none;
+    } 
+
+    .hero {
+        display: none;
+    }
+
+    #header p {
+        margin-left: 100px;
+        width: 250px;
+    }
+
+     .avatar {
+       float: none;
+     }
+
+     #aboutme{
+        margin-left: 10px;
+     }
+
+     #works {
+        margin: 0 10px;
+     }
+
+     #contactmecontainer {
+        margin: 0 25px;
+     }
+
+     nav ul li {
+        margin: 5px 0;
+     }
+  }
+

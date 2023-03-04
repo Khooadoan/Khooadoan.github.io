@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- CSS Styles -->
+        <link rel="stylesheet" href="portfolio.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;700;800&family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+
+        <title>Khoa Doan | Front-End Developer</title>
+    </head>
+    <body>  
+        <!-- Navigation bar -->
+        <nav>
+            <div class="logo">
+                <p><span>{</span>Khoa Doan;<span>}</span></p>
+            </div>
+
+            <ul>
+                <li><a href="#top"><span class="bracelets">{ </span>Top<span class="bracelets"> }</span></a></li>
+                <li><a href="#AboutMe"><span class="bracelets">{ </span>About Me<span class="bracelets"> }</span></a></li>
+                <li><a href="#Works"><span class="bracelets">{ </span>My Works<span class="bracelets"> }</span></a></li>
+                <li><a href="#contactme"><span class="bracelets">{ </span>Contact Me<span class="bracelets"> }</span></a></li>
+                <li><a href="https://khooadoan.github.io/listphim.html"><span class="bracelets">{ </span>Watch Films! <span class="bracelets"> }</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- main section -->
+        <main>
+          <div id="header">
+            <div class="hero">
+                <img src="hero.jpg" width="300px" height="260px">
+            </div>
+            <div class="logo big">
+                <p><span>{</span>Khoa Doan;<span>}</span></p>
+            </div>
+            <p class="description"><span class="light">Front-End Developer</span>
+                <br><br>
+                "A young guy who had a passion for coding and
+                UI style."<br><br>
+                <strong class="underline">Khoa Doan</strong>
+            </p>
+            <div class="banner"><img src="code.jpg"></div>
+          </div>
+          <div id="AboutMe" class="navsection"></div>
+          <div id="aboutme">
+            <div class="avatar"> 
+                <img src="avatar.jpg" width="300px" height="400px">
+            </div>
+            <div class="logo big">
+               <p><span>{</span>About Me;<span>}</span></p>
+            </div>
+            <p class="paragraph">Hello guys, my name is <strong class="underline">Đoàn Minh Khoa</strong>
+                <em>(which is my birth name)</em> and I want to introduce myself:<br><br>
+                I'm a Front-End Developer with a passion for coding when
+               I was young. I'm learning more than that to become a
+               professional developer. My home is in Da Nang, Vietnam,
+               a beautiful, wonderful city. 
+            </p>
+            <ul>
+                <li class="light">Birthdate</li>
+                <li>August 12</li>
+                <li class="light">Skype</li>
+                <li>live:.cid.e4f93727ad884393</li>
+                <li class="light">Phone</li>
+                <li><span class="gray">+84(VN)</span> 344499***</li>
+                <li class="light">Email</li>
+                <li><a class="no-decoration black" href="mailto:khooadoan@gmail.com">khooadoan<span class="gray">@gmail.com</span></a></li>
+                <li class="light">Lives at</li>
+                <li>Son Tra District, Da Nang, Vietnam</li>
+                <li class="light">What do I love?</li>
+                <li>Coding</li>
+            </ul>
+            
+          </div>
+          <div id="Works" class="navsection"></div>
+          <div id="works">
+            <div class="logo big right">
+                <p><span>{</span>My Works;<span>}</span></p>
+            </div>
+                <div class="work-container">
+                   <div class="work-item">
+                       <a href="https://github.com/Khooadoan/Tic-Tac-Toe" class="no-decoration">
+                       <img src="tictactoe.jpg" width="200px" height="200px">
+                       <p><span class="bracelets">{ </span>A Tic-Tac-Toe game using Javascript and CSS Canvas.<span class="bracelets"> }</span></p>
+                       </a>
+                   </div>
+                   <div class="work-item">
+                    <a href="https://github.com/Khooadoan/Khooadoan.github.io" class="no-decoration">
+                    <img src="webphim.jpg" width="200px" height="200px">
+                    <p><span class="bracelets">{ </span>A functional film page using HTML, CSS and Javascript with some APIs.<span class="bracelets"> }</span></p>
+                    </a>
+                   </div>
+                   <div class="work-item">
+                       <a href="https://github.com/Khooadoan/Calculator-App" class="no-decoration">
+                       <img src="calculator.jpg" width="200px" height="200px">
+                       <p><span class="bracelets">{ </span>A calculator app using Javascript and CSS Grids.<span class="bracelets"> }</span></p>
+                       </a>
+                   </div>
+                   <div class="work-item">
+                    <a href="https://github.com/Khooadoan/My-Notes-Website" class="no-decoration">
+                    <img src="notes.jpg" width="200px" height="200px">
+                    <p><span class="bracelets">{ </span>A note app using Javascript.<span class="bracelets"> }</span></p>
+                    </a>
+                   </div>
+                </div>
+             </div>
+          </div>
+        </main>
+        <!-- footer section -->
+        <footer>
+            <div id="contactme">
+                <div id="contactmecontainer">
+                <div class="logo big white">
+                    <p><span class="gray">{</span>Contact Me;<span class="gray">}</span></p>
+                 </div>
+                 <p class="paragraph">Leave your messages and I'll contact you back later!</p>
+                 <form action="https://formspree.io/f/meqwkpap" method="POST">
+                    <label>
+                        Name:
+                        <input type="text" name="name" placeholder="John Doe" required>
+                    </label>
+                    <label>
+                        Email:
+                        <input type="email" name="email" placeholder="johndoe@gmail.com" required>
+                      </label>
+                      <label>
+                        Message:
+                        <textarea name="message" minlength="10" placeholder="I really love your projects!"></textarea>
+                      </label>
+                      <!-- your other form fields go here -->
+                      <button type="submit">Send</button>
+                 </form>
+                </div>
+              </div>
+        </footer>
+    </body>
+</html>
