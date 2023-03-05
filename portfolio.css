@@ -36,12 +36,13 @@ nav {
 
 nav ul {
     margin-left: auto;
+    padding: 0;
     list-style: none;
 }
 
 nav ul li {
     display: inline-block;
-    margin: 0 5px;
+    margin: 0;
     font-weight: 700;
 }
 
@@ -122,8 +123,12 @@ main {
 }
 
 #works {
-    margin: 0 200px;
+    margin: 0 10px;
     height: auto;
+}
+
+#works .logo {
+    margin: 0 200px;
 }
 
 .light {
@@ -259,11 +264,15 @@ form button:hover {
 
 @media only screen and (max-width: 800px) {
     .hero {
-        display: none;
+        float: none;
     }
 
     #header p {
-        margin-left: 100px;
+        margin-left: 30px;
+    }
+
+    #works .logo {
+        margin: 0 100px;
     }
 
      .avatar {
@@ -277,25 +286,27 @@ form button:hover {
     } 
 
     .hero {
-        display: none;
+        float: none;
+        
     }
 
     #header p {
-        margin-left: 100px;
+        margin-left: 30px;
         width: 250px;
     }
 
      .avatar {
        float: none;
+       margin-left: 15px;
      }
 
      #aboutme{
         margin-left: 10px;
      }
 
-     #works {
+     #works .logo {
         margin: 0 10px;
-     }
+    }
 
      #contactmecontainer {
         margin: 0 25px;
