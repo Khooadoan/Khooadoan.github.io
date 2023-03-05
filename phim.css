@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(20, 20, 20);
+}
+
+#body {
+    text-align: center;
+}
+
+#desc {
+    text-align: left;
+    padding: 12px;
+    height: auto;
+    margin-top: 20px;
+    width: 75%;
+    margin-left: 12.5%;
+    background: black;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#filmtitledesc {
+    font-size: 30px;
+    margin: 0;
+}
+#filmorigintitle {
+    color: grey;
+    font-size: 20px;
+    margin: 0;
+}
+
+.navigation{
+    color: gray;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.navigation:hover {
+    color: white;
+}
+
+.episodebutton {
+    background: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid gray;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    width: 30px;
+}
+
+.episodebutton:hover {
+    border: 2px solid white;
+    background: red;
+}
+
+video {
+    width: 1000px;
+    height: 500px;
+    background: black;
+}
+
+#desc img {
+    float: left;
+    width: 190px;
+    height: 320px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+#filminfodesc {
+    list-style: none;
+    padding: 0;
+}
+
+.filminfo {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100%;
+    background: rgb(35, 35, 35);
+}
+
+.filminfo:hover {
+    background: rgb(60, 60, 60);
+}
+
+.filminfo strong {
+    margin-right: 8px;
+    color: gray;
+}
+
+#buttoncontainer p {
+    display: inline-block;
+}
+
+.navbtndesc {
+    padding: 10px;
+    background: rgb(35, 35, 35);
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border: 0 solid black;
+    margin: 0 15px 5px 0;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navbtndesc:hover {
+    background: white;
+    color: black;
+}
+
+#film-container {
+    width: 100%;
+}
+
+#film-container-suggested {
+    width: 100%;
+}
+
+.film-item img {
+    width: 190px;
+    height: 320px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.film-item {
+    width: 190px;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+#film-container a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#film-container-suggested a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.year {
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+#film-container h1{
+    margin: 20px;
+}
+
+#film-container-suggested h1{
+    margin: 20px;
+}
+
+
+.title-name {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    height: 35px;
+}
+
+.title-name:hover {
+    color: red;
+}
+
+.year:hover {
+    color: red;
+}
+
